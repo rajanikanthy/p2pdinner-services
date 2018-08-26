@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: rajani@p2pdinner.com
+      changes:
+        - createTable:
+            columns:
+            -  column:
+                 name: value
+                 type: varchar(255)
+            tableName: dummy
